@@ -11,4 +11,4 @@ Nuntempe (eble ne ĉiam) vi devas uzi la komandon `setxkbmap epodv`, mi ankoraŭ
 
 Se vi volas plibonigi ĉi tiun projekton, ĵus krei "Issue"-on aŭ fari "Pull request"on. Dankon.
 
-Mi bazis sur [https://lernu.net/en/forumo/temo/18360] (ĉi tiun) ideon. 
+Mi bazis sur [ĉi tiun](https://lernu.net/en/forumo/temo/18360) ideon. 
