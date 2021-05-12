@@ -3,7 +3,7 @@ Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for lin
 
 *Ĉu vi amas Esperanton? Ĉu vi amas Dvorak-an klavararanĝon? Vi ne povas uzi ĝin kune? Mi havas solvon. Vi eĉ povas lerni ĝin per "Klavaro" aplikaĵo.*
 
-![preview](preview.png "Kiel ĝi aperas")
+![preview](view.png "Kiel ĝi aperas")
 
 ### Kiel instali ĝin?
 
