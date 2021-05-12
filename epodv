@@ -1,0 +1,59 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Generated keyboard layout file with the Keyboard Layout Editor.
+// For more about the software, see http://code.google.com/p/keyboardlayouteditor
+//
+
+xkb_symbols "dvorak"
+{
+	name[Group1] = "Esperanta Dvorako";
+	include "level3(ralt_switch)"
+	key <AB01> { [              z,              Z                                 ] }; // z Z 
+	key <AB02> { [    ccircumflex,    Ccircumflex,              x,              X ] }; // ĉ Ĉ x X 
+	key <AB03> { [         ubreve,         Ubreve,              y,              Y ] }; // ŭ  y Y 
+	key <AB04> { [    jcircumflex,    Jcircumflex                                 ] }; // ĵ Ĵ 
+	key <AB05> { [    hcircumflex,    Hcircumflex                                 ] }; // ĥ Ĥ 
+	key <AB06> { [              b,              B                                 ] }; // b B 
+	key <AB07> { [              c,              C                                 ] }; // c C 
+	key <AB08> { [    gcircumflex,    Gcircumflex,              w,              W ] }; // ĝ Ĝ w W 
+	key <AB09> { [              v,              V                                 ] }; // v V 
+	key <AB10> { [              h,              H                                 ] }; // h H 
+	key <AC01> { [              a,              A                                 ] }; // a A 
+	key <AC02> { [              o,              O                                 ] }; // o O 
+	key <AC03> { [              e,              E                                 ] }; // e E 
+	key <AC04> { [              u,              U                                 ] }; // u U 
+	key <AC05> { [              i,              I                                 ] }; // i I 
+	key <AC06> { [              d,              D                                 ] }; // d D 
+	key <AC07> { [              k,              K                                 ] }; // k K 
+	key <AC08> { [              t,              T                                 ] }; // t T 
+	key <AC09> { [              n,              N                                 ] }; // n N 
+	key <AC10> { [              s,              S                                 ] }; // s S 
+	key <AC11> { [     quoteright,       quotedbl, guillemotleft, guillemotright  ] }; // ' " « » 
+	key <AD01> { [    scircumflex,    Scircumflex,              q,              Q ] }; // ŝ Ŝ q Q 
+	key <AD02> { [          comma,      semicolon,     rightcaret                 ] }; // , ; > 
+	key <AD03> { [         period,          colon,      leftcaret                 ] }; // . : < 
+	key <AD04> { [              j,              J                                 ] }; // j J 
+	key <AD05> { [              p,              P                                 ] }; // p P 
+	key <AD06> { [              f,              F                                 ] }; // f F 
+	key <AD07> { [              g,              G                                 ] }; // g G 
+	key <AD08> { [              m,              M                                 ] }; // m M 
+	key <AD09> { [              r,              R                                 ] }; // r R 
+	key <AD10> { [              l,              L                                 ] }; // l L 
+	key <AD11> { [      KP_Divide,       question                                 ] }; // / ? 
+	key <AD12> { [       KP_Equal,         KP_Add,    KP_Subtract,       underbar ] }; // = + - _ 
+	key <AE01> { [           KP_1,         exclam                                 ] }; // 1 ! 
+	key <AE02> { [           KP_2,             at                                 ] }; // 2 @ 
+	key <AE03> { [           KP_3,     numbersign                                 ] }; // 3 # 
+	key <AE04> { [           KP_4,         dollar,       NoSymbol,          U20B7 ] }; // 4 $  ₷ 
+	key <AE05> { [           KP_5,        percent                                 ] }; // 5 % 
+	key <AE06> { [           KP_6,    asciicircum                                 ] }; // 6 ^ 
+	key <AE07> { [           KP_7,      ampersand                                 ] }; // 7 & 
+	key <AE08> { [           KP_8,    KP_Multiply                                 ] }; // 8 * 
+	key <AE09> { [           KP_9,      parenleft                                 ] }; // 9 ( 
+	key <AE10> { [           KP_0,     parenright                                 ] }; // 0 ) 
+	key <AE11> { [    bracketleft,      braceleft                                 ] }; // [ { 
+	key <AE12> { [   bracketright,     braceright                                 ] }; // ] } 
+	key <BKSL> { [       NoSymbol,            bar                                 ] }; //  | 
+	key <TLDE> { [      quoteleft,     asciitilde                                 ] }; // ` ~ 
+};
+
