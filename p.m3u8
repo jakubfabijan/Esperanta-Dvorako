@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:0,Channel 1
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/1.m3u8
+#EXTINF:0,Channel 2
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/2.m3u8
+#EXTINF:0,Channel 3
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/3.m3u8
+#EXTINF:0,Channel 4
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/4.m3u8
+#EXTINF:0,Channel 5
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/5.m3u8
+#EXTINF:0,Channel 6
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/6.m3u8
+#EXTINF:0,Channel 7
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/7.m3u8
+#EXTINF:0,Channel 8
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/8.m3u8
+#EXTINF:0,Channel 9
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/9.m3u8
+#EXTINF:0,Channel 10
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/10.m3u8
+#EXTINF:0,Channel 11
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/11.m3u8
+#EXTINF:0,Channel 12
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/12.m3u8
+#EXTINF:0,Channel 13
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/13.m3u8
+#EXTINF:0,Channel 14
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/14.m3u8
+#EXTINF:0,Channel 15
+https://raw.githubusercontent.com/jakubfabijan/pltv/main/15.m3u8
