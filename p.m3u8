@@ -1,7 +1,7 @@
 #EXTM3U
 
-#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Undefined",TVN 24 FHD
-http://iptv.elnszweldrel.in:46982/wekoe/5RJ0a5VBij/8025?checkedby:iptvcat.com
+#EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Undefined",YLE TV1
+https://yletvhdliveworld-lh.akamaihd.net/i/yletv1hdworld_1@187592/index_184_av-p.m3u8?sd=10&rebase=on
 
 #EXTINF:0 tvg-country="PL" tvg-logo="" group-title="Undefined",TVN 7 FHD
 http://152.89.62.111:8080/kyle123/kyle123/246115?checkedby:iptvcat.com
