@@ -41,16 +41,16 @@ xkb_symbols "dvorak"
 	key <AD10> { [              l,              L                                 ] }; // l L 
 	key <AD11> { [      KP_Divide,       question                                 ] }; // / ? 
 	key <AD12> { [       	minus,          plus,         equal,       underbar ] }; // = + - _ 
-	key <AE01> { [           KP_1,         exclam                                 ] }; // 1 ! 
-	key <AE02> { [           KP_2,             at                                 ] }; // 2 @ 
-	key <AE03> { [           KP_3,     numbersign                                 ] }; // 3 # 
-	key <AE04> { [           KP_4,         dollar,       NoSymbol,          U20B7 ] }; // 4 $  ₷ 
-	key <AE05> { [           KP_5,        percent                                 ] }; // 5 % 
-	key <AE06> { [           KP_6,    asciicircum                                 ] }; // 6 ^ 
-	key <AE07> { [           KP_7,      ampersand                                 ] }; // 7 & 
-	key <AE08> { [           KP_8,    KP_Multiply                                 ] }; // 8 * 
-	key <AE09> { [           KP_9,      parenleft                                 ] }; // 9 ( 
-	key <AE10> { [           KP_0,     parenright                                 ] }; // 0 ) 
+	key <AE01> { [              1,         exclam                                 ] }; // 1 ! 
+	key <AE02> { [              2,             at                                 ] }; // 2 @ 
+	key <AE03> { [              3,     numbersign                                 ] }; // 3 # 
+	key <AE04> { [              4,         dollar,       NoSymbol,          U20B7 ] }; // 4 $  ₷ 
+	key <AE05> { [              5,        percent                                 ] }; // 5 % 
+	key <AE06> { [              6,    asciicircum                                 ] }; // 6 ^ 
+	key <AE07> { [              7,      ampersand                                 ] }; // 7 & 
+	key <AE08> { [              8,    KP_Multiply                                 ] }; // 8 * 
+	key <AE09> { [              9,      parenleft                                 ] }; // 9 ( 
+	key <AE10> { [              0,     parenright                                 ] }; // 0 ) 
 	key <AE11> { [    bracketleft,      braceleft                                 ] }; // [ { 
 	key <AE12> { [   bracketright,     braceright                                 ] }; // ] } 
 	key <BKSL> { [       NoSymbol,            bar                                 ] }; //  | 
