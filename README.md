@@ -11,3 +11,6 @@ Nuntempe vi devas uzi la komandon `setxkbmap epodv`, mi ankoraŭ ne scias kiel a
 
 Se vi volas plibonigi ĉi tiun projekton, ĵus krei "Issue"-on aŭ fari "Pull request"-on. Dankon al ĉiuj.
 Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo. 
+
+### Ŝanĝprotokolo
+02/07/21: Anstataŭigis `=` kun `-`
