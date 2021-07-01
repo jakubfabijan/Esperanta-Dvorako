@@ -10,4 +10,4 @@ Por instali klavararanĝon vi devas elŝuti kaj movi [epodv](epodv) dosieron al 
 Nuntempe vi devas uzi la komandon `setxkbmap epodv`, mi ankoraŭ ne scias kiel aldoni klavararanĝon al operaciuma klavararanĝa elektilo. Je "Klavaro" aplikaĵo vi devas elekti: Klavaro:>Esperantujo>dvorak.
 
 Se vi volas plibonigi ĉi tiun projekton, ĵus krei "Issue"-on aŭ fari "Pull request"-on. Dankon al ĉiuj.
-Mi bazis sur [ĉi tiun](https://lernu.net/en/forumo/temo/18360) ideon. 
+Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo. 
