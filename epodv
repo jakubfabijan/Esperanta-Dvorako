@@ -40,7 +40,7 @@ xkb_symbols "dvorak"
 	key <AD09> { [              r,              R                                 ] }; // r R 
 	key <AD10> { [              l,              L                                 ] }; // l L 
 	key <AD11> { [      KP_Divide,       question                                 ] }; // / ? 
-	key <AD12> { [       KP_Equal,         KP_Add,    KP_Subtract,       underbar ] }; // = + - _ 
+	key <AD12> { [       	minus,          plus,         equal,       underbar ] }; // = + - _ 
 	key <AE01> { [           KP_1,         exclam                                 ] }; // 1 ! 
 	key <AE02> { [           KP_2,             at                                 ] }; // 2 @ 
 	key <AE03> { [           KP_3,     numbersign                                 ] }; // 3 # 
