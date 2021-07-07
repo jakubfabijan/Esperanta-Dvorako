@@ -1,0 +1,290 @@
+// Esperanto keyboard maps -- "Ekverto"
+//
+// Ekverto A ("legacy") (2004-01-10)
+// Chusslove Illich (Ĉaslavo Iliĉo) <caslav.ilic@gmx.net>
+//
+// Ekverto B ("basic") (2006-12-02)
+// Benno Schulenberg (Beno Sĥilenberĥ) <bensberg@justemail.net>
+// Chusslove Illich (Ĉaslavo Iliĉo) <caslav.ilic@gmx.net>
+
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+
+  include "us(basic)"
+  name[Group1]= "Esperanto";
+
+  key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
+
+  key <AD01>  { [ scircumflex,  Scircumflex,  q,             Q          ] };
+  key <AD02>  { [ gcircumflex,  Gcircumflex,  w,             W          ] };
+  key <AB02>  { [ ccircumflex,  Ccircumflex,  x,             X          ] };
+  key <AD06>  { [ ubreve,       Ubreve,       y,             Y          ] };
+
+  key.type[Group1] = "FOUR_LEVEL_SEMIALPHABETIC";
+
+  key <AD11>  { [ jcircumflex,  Jcircumflex,  bracketleft,   braceleft  ] };
+  key <AD12>  { [ hcircumflex,  Hcircumflex,  bracketright,  braceright ] };
+
+  key <AD09>  { [ o,            O,            braceleft,     braceleft  ] };
+  key <AD10>  { [ p,            P,            braceright,    braceright ] };
+
+  key <AC01>  { [ a,            A,     leftsinglequotemark,  NoSymbol   ] };
+  key <AC02>  { [ s,            S,    rightsinglequotemark,  NoSymbol   ] };
+  key <AC03>  { [ d,            D,     leftdoublequotemark,  NoSymbol   ] };
+  key <AC04>  { [ f,            F,    rightdoublequotemark,  NoSymbol   ] };
+
+  key <AB06>  { [ n,            N,            endash,        endash     ] };
+  key <AB07>  { [ m,            M,            emdash,        emdash     ] };
+
+  key.type[Group1] = "FOUR_LEVEL";
+
+  key <AE05>  { [ 5,            percent,      EuroSign,      EuroSign   ] };
+
+  include "level3(ralt_switch)"
+};
+
+//Jakub Fabijan 2020 Esperanto Dvoraka
+partial alphanumeric_keys
+xkb_symbols "legacy" {
+	name[group1]="Esperanta Dvorako";
+	key <TLDE> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ grave,	asciitilde,	degree,	macron ]
+	};
+	key <AE01> { 
+		symbols[Group1] = [ 1,	U03D7 ]
+	};
+	key <AE02> { 
+		symbols[Group1] = [ 2,	at ]
+	};
+	key <AE03> { 
+		symbols[Group1] = [ 3,	numbersign ]
+	};
+	key <AE04> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ 4,	dollar,	U20AC,	U20B7 ]
+	};
+	key <AE05> { 
+		symbols[Group1] = [ 5,	percent ]
+	};
+	key <AE06> { 
+		symbols[Group1] = [ 6,	asciicircum ]
+	};
+	key <AE07> { 
+		symbols[Group1] = [ 7,	ampersand ]
+	};
+	key <AE08> { 
+		symbols[Group1] = [ 8,	KP_Multiply ]
+	};
+	key <AE09> { 
+		symbols[Group1] = [ 9,	parenleft ]
+	};
+	key <AE10> { 
+		symbols[Group1] = [ 0,	parenright ]
+	};
+	key <AE11> { 
+		symbols[Group1] = [ bracketleft,	braceleft ]
+	};
+	key <AE12> { 
+		symbols[Group1] = [ bracketright,	braceright ]
+	};
+	key <BKSP> { 
+		type[group1]= "CTRL+ALT",
+		symbols[Group1] = [ BackSpace,	BackSpace,	NoSymbol,	NoSymbol,	Terminate_Server ]
+	};
+	key <TAB> { 		[ Tab,	ISO_Left_Tab ] };
+	key <AD01> { 
+		type[group1]= "FOUR_LEVEL_ALPHABETIC",
+		symbols[Group1] = [ scircumflex,	Scircumflex,	q,	Q ]
+	};
+	key <AD02> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ comma,	semicolon,	U2013,	underbar ]
+	};
+	key <AD03> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ period,	colon,	U2010,	U2026 ]
+	};
+	key <AD04> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ j,	J ]
+	};
+	key <AD05> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ p,	P ]
+	};
+	key <AD06> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ f,	F ]
+	};
+	key <AD07> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ g,	G ]
+	};
+	key <AD08> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ m,	M ]
+	};
+	key <AD09> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ r,	R ]
+	};
+	key <AD10> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ l,	L ]
+	};
+	key <AD11> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ question,	exclam,	less,	greater ]
+	};
+	key <AD12> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ minus,	plus,	equal,	NoSymbol ]
+	};
+	key <BKSL> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ backslash,	slash,	bar,	NoSymbol ]
+	};
+	key <CAPS> { 		[ Caps_Lock ] };
+	key <AC01> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ a,	A ]
+	};
+	key <AC02> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ o,	O ]
+	};
+	key <AC03> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ e,	E ]
+	};
+	key <AC04> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ u,	U ]
+	};
+	key <AC05> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ i,	I ]
+	};
+	key <AC06> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ d,	D ]
+	};
+	key <AC07> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ k,	K ]
+	};
+	key <AC08> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ t,	T ]
+	};
+	key <AC09> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ n,	N ]
+	};
+	key <AC10> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ s,	S ]
+	};
+	key <AC11> { 
+		type[group1]= "FOUR_LEVEL",
+		symbols[Group1] = [ guillemotleft,	guillemotright,	U2033,	U2032 ]
+	};
+	key <RTRN> { 		[ Return ] };
+	key <LFSH> { 		[ Shift_L ] };
+	key <AB01> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ z,	Z ]
+	};
+	key <AB02> { 
+		type[group1]= "FOUR_LEVEL_ALPHABETIC",
+		symbols[Group1] = [ ccircumflex,	Ccircumflex,	x,	X ]
+	};
+	key <AB03> { 
+		type[group1]= "FOUR_LEVEL_ALPHABETIC",
+		symbols[Group1] = [ ubreve,	Ubreve,	y,	Y ]
+	};
+	key <AB04> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ jcircumflex,	Jcircumflex ]
+	};
+	key <AB05> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ hcircumflex,	Hcircumflex ]
+	};
+	key <AB06> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ b,	B ]
+	};
+	key <AB07> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ c,	C ]
+	};
+	key <AB08> { 
+		type[group1]= "FOUR_LEVEL_ALPHABETIC",
+		symbols[Group1] = [ gcircumflex,	Gcircumflex,	w,	W ]
+	};
+	key <AB09> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ v,	V ]
+	};
+	key <AB10> { 
+		type[group1]= "ALPHABETIC",
+		symbols[Group1] = [ h,	H ]
+	};
+	key <RTSH> { 		[ Shift_R ] };
+	key <LCTL> { 		[ Control_L ] };
+	key <LWIN> { 		[ Super_L ] };
+	key <LALT> { 
+		type[group1]= "ONE_LEVEL",
+		symbols[Group1] = [ ISO_Level3_Shift ]
+	};
+	key <SPCE> { 
+		symbols[Group1] = [ space,	U2003 ]
+	};
+	key <RALT> { 
+		type[group1]= "ONE_LEVEL",
+		symbols[Group1] = [ ISO_Level3_Shift ]
+	};
+	key <RWIN> { 		[ Super_R ] };
+	key <COMP> { 		[ Alt_L ] };
+	key <RCTL> { 		[ Control_R ] };
+};
+
+// Add the Esperanto supersigned letters to their related keys on a Qwerty keyboard.
+// This is a generic "component" that is not used by the other layouts in this file,
+// but is meant to be applied to any Qwerty layout.  If you have any questions, ask
+// J. Pablo Fernández <pupeno@pupeno.com>.
+partial
+xkb_symbols "qwerty" {
+    key <AB03> { [ NoSymbol, NoSymbol, ccircumflex, Ccircumflex ] };
+    key <AC05> { [ NoSymbol, NoSymbol, gcircumflex, Gcircumflex ] };
+    key <AC06> { [ NoSymbol, NoSymbol, hcircumflex, Hcircumflex ] };
+    key <AC07> { [ NoSymbol, NoSymbol, jcircumflex, Jcircumflex ] };
+    key <AC02> { [ NoSymbol, NoSymbol, scircumflex, Scircumflex ] };
+    key <AD07> { [ NoSymbol, NoSymbol,      ubreve,      Ubreve ] };
+};
+
+// Add the Esperanto supersigned letters to their related keys in a
+// Dvorak layout.  Similar comment as above applies.
+partial
+xkb_symbols "dvorak" {
+    key <AD08> { [ NoSymbol, NoSymbol, ccircumflex, Ccircumflex ] };
+    key <AD07> { [ NoSymbol, NoSymbol, gcircumflex, Gcircumflex ] };
+    key <AC07> { [ NoSymbol, NoSymbol, hcircumflex, Hcircumflex ] };
+    key <AB03> { [ NoSymbol, NoSymbol, jcircumflex, Jcircumflex ] };
+    key <AC10> { [ NoSymbol, NoSymbol, scircumflex, Scircumflex ] };
+    key <AC04> { [ NoSymbol, NoSymbol,      ubreve,      Ubreve ] };
+};
+
+// Add the Esperanto supersigned letters to their related keys in a
+// Colemak layout.  Similar comment as above applies.
+partial
+xkb_symbols "colemak" {
+    key <AB03> { [ NoSymbol, NoSymbol, ccircumflex, Ccircumflex ] };
+    key <AD05> { [ NoSymbol, NoSymbol, gcircumflex, Gcircumflex ] };
+    key <AC06> { [ NoSymbol, NoSymbol, hcircumflex, Hcircumflex ] };
+    key <AD06> { [ NoSymbol, NoSymbol, jcircumflex, Jcircumflex ] };
+    key <AC03> { [ NoSymbol, NoSymbol, scircumflex, Scircumflex ] };
+    key <AD08> { [ NoSymbol, NoSymbol,      ubreve,      Ubreve ] };
+};
