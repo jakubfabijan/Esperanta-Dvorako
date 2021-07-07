@@ -14,3 +14,4 @@ Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo.
 
 ### Ŝanĝprotokolo
 02/07/21: Anstataŭigis `=` kun `-`
+07/07/21: Ŝanĝis ĉiujn «KP» klavojn al numeraj.
