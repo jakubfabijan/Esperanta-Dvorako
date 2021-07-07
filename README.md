@@ -1,11 +1,11 @@
 ## Esperanta-Dvorako
-Radikala Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
+Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
 
 ![bildo](https://user-images.githubusercontent.com/53099243/124802329-23763e80-df58-11eb-8410-5f0cb47a4211.png "Tiel ĝi aperas")
 ## Agordado
 **Kiel instali ĝin?**
 
-Unue, elŝutu la plej lasta eldonon. (Eldonoj estas je maldekstra flanko.) Elpaki ĝin kaj lanĉu `skripto.sh` en terminalo.\
+Unue, elŝutu la plej lastan eldonon. (Eldonoj estas je maldekstra flanko.) Elpaki ĝin kaj lanĉu `skripto.sh` en terminalo.\
 Alie:\
 Por instali klavararanĝon vi kopiu `epo` dosieron al `/usr/share/X11/xkb/symbols/` dosierujo. Por instali la klavararanĝon por la aplikaĵo "Klavaro" por lerni ĝin, vi kopiu dosieron `dvorak_eo.kbd` al `/usr/share/klavaro/` dosierujo.
 
@@ -31,7 +31,6 @@ Por lerni, je "Klavaro" vi devas elekti `Klavaro:`>`Esperantujo`>`dvorak`.
 `ϗ` estas mallongiga signo por «[kaj](https://eo.wikipedia.org/wiki/%CF%97)», anstataŭigas anglan `&`.
 
 **La `–`, `‐`, `_` kaj `-`.**\
-*Homoj ĉiutage konfuzas ĉiujn streketojn, malfeliĉe...*\
 La `–` (verda klavo) estas «[streko](https://eo.wikipedia.org/wiki/Streko)» (ang. dash). Ni kutime uzas ĝin por signifi datojn «1986–1998» aŭ parencaj frazojn «Mi manĝos kukon–bona ideo.»\
 La `-` (flava klavo malsupre) estas «[streketo](https://eo.wikipedia.org/wiki/Streketo)» (ang. hyphen). Ni uzas ĝin por konekti vortojn ekz. «tricent-jar-aĝa arbo».\
 La `_` (flava klavo supre) ne estas multe uzata krom programistoj.\
