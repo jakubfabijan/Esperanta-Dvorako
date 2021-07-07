@@ -5,7 +5,9 @@ Radikala Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layou
 ## Agordado
 **Kiel instali ĝin?**
 
-Por instali klavararanĝon vi devas elŝuti kaj movi [epo](epo) dosieron al `/usr/share/X11/xkb/symbols/` dosierujo. Se vi volas instali la klavararanĝon por la aplikaĵo "Klavaro" por lerni ĝin, vi devas elŝuti kaj movi dosieron [dvorak_eo.kbd](dvorak_eo.kbd) al `/usr/share/klavaro/` dosierujo.
+Unue, elŝutu la plej lasta eldonon. (Eldonoj estas je maldekstra flanko.) Elpaki ĝin kaj lanĉu `skripto.sh` en terminalo.\
+Alie:\
+Por instali klavararanĝon vi kopiu `epo` dosieron al `/usr/share/X11/xkb/symbols/` dosierujo. Por instali la klavararanĝon por la aplikaĵo "Klavaro" por lerni ĝin, vi kopiu dosieron `dvorak_eo.kbd` al `/usr/share/klavaro/` dosierujo.
 
 **Kiel agordi ĝin?**
 
