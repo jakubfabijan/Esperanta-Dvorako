@@ -1,5 +1,5 @@
 ## Esperanta-Dvorako
-Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
+Radikala Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
 
 ![bildo](https://user-images.githubusercontent.com/53099243/124802329-23763e80-df58-11eb-8410-5f0cb47a4211.png "Tiel ĝi aperas")
 ## Agordado
@@ -23,7 +23,7 @@ Por lerni, je "Klavaro" vi devas elekti `Klavaro:`>`Esperantujo`>`dvorak`.
 
 **Legendo:**\
 ![bildo](https://user-images.githubusercontent.com/53099243/124806431-fa0be180-df5c-11eb-95f6-d5d63549f106.png)\
-`ĉ`sola klavo > `Ĉ`klavo kun Shift > `x`klavo kun Ctrl > `X`klavo kun Shift kaj Ctrl
+`ĉ`sola klavo > `Ĉ`klavo kun Shift > `x`klavo kun AltGr > `X`klavo kun Shift kaj AltGr
 
 **Kio estas `ϗ` ?**\
 `ϗ` estas mallongiga signo por «[kaj](https://eo.wikipedia.org/wiki/%CF%97)», anstataŭigas anglan `&`.
