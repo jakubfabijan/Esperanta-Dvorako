@@ -74,7 +74,7 @@ xkb_symbols "legacy" {
 		symbols[Group1] = [ 7,	ampersand ]
 	};
 	key <AE08> { 
-		symbols[Group1] = [ 8,	KP_Multiply ]
+		symbols[Group1] = [ 8,	asterisk ]
 	};
 	key <AE09> { 
 		symbols[Group1] = [ 9,	parenleft ]
