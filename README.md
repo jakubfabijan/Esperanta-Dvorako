@@ -1,18 +1,41 @@
-# Esperanta-Dvorako
+## Esperanta-Dvorako
 Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
 
-*Ĉu vi amas Esperanton? Ĉu vi amas Dvorak-an klavararanĝon? Vi ne povas uzi ĝin kune? Mi havas solvon. Vi eĉ povas lerni ĝin per "Klavaro" aplikaĵo.*
-![preview](vido.png "Kiel ĝi aperas")
-### Kiel instali ĝin?
-Por instali klavararanĝon vi devas elŝuti kaj movi [epodv](epodv) dosieron al `/usr/share/X11/xkb/symbols/` dosierujo. Se vi volas instali la klavararanĝon por la aplikaĵo "Klavaro" por lerni ĝin, vi devas elŝuti kaj movi dosieron [dvorak_eo.kbd](dvorak_eo.kbd) al `/usr/share/klavaro/` dosierujo.
+![bildo](https://user-images.githubusercontent.com/53099243/124802329-23763e80-df58-11eb-8410-5f0cb47a4211.png "Tiel ĝi aperas")
+## Agordado
+**Kiel instali ĝin?**
 
-### Kiel agordi ĝin?
-Nuntempe vi devas uzi la komandon `setxkbmap epodv`, mi ankoraŭ ne scias kiel aldoni klavararanĝon al operaciuma klavararanĝa elektilo. Je "Klavaro" aplikaĵo vi devas elekti: Klavaro:>Esperantujo>dvorak.
+Por instali klavararanĝon vi devas elŝuti kaj movi [epo](epo) dosieron al `/usr/share/X11/xkb/symbols/` dosierujo. Se vi volas instali la klavararanĝon por la aplikaĵo "Klavaro" por lerni ĝin, vi devas elŝuti kaj movi dosieron [dvorak_eo.kbd](dvorak_eo.kbd) al `/usr/share/klavaro/` dosierujo.
 
-Se vi volas plibonigi ĉi tiun projekton, simple krei "Issue"-on aŭ fari "Pull request"-on. Dankon al ĉiuj.
-Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo. 
+**Kiel agordi ĝin?**
 
-### Ŝanĝprotokolo
-02/07/21: Anstataŭigis `=` kun `-`
+En via operaciuma klavararanĝa elektilo vi devas elekti `Esperanto (Malmoderna)` aŭ `Esperanto (legacy)`. Kial Malmoderna? Pro kongruecaj aferoj.
 
-07/07/21: Ŝanĝis ĉiujn «KP» klavojn al numeraj.
+xfce4 ekzemplo | lxde ekzemplo
+:-------------:|:-------------:
+![bildo](https://user-images.githubusercontent.com/53099243/124801286-f83f1f80-df56-11eb-8c84-7d9548e67d8f.png)|![bildo](https://user-images.githubusercontent.com/53099243/124801547-3fc5ab80-df57-11eb-8b09-f6d35a647fa0.png)
+
+Por lerni, je "Klavaro" vi devas elekti `Klavaro:`>`Esperantujo`>`dvorak`.
+:------------------------------------------------------------------:
+![bildo](https://user-images.githubusercontent.com/53099243/124801973-c1b5d480-df57-11eb-9ed3-31ebed7af860.png)
+
+## Uzado
+
+**Legendo:**\
+![bildo](https://user-images.githubusercontent.com/53099243/124806431-fa0be180-df5c-11eb-95f6-d5d63549f106.png)\
+`ĉ`sola klavo > `Ĉ`Klavo kun Shift >`x`klavo kun Ctrl > `X`klavo kun Shift kaj Ctrl
+
+**Kio estas `ϗ` ?**\
+`ϗ` estas mallongiga signo por «[kaj](https://eo.wikipedia.org/wiki/%CF%97)», anstataŭigas anglan `&`.
+
+**La `–`, `‐`, `_` kaj `-`.**\
+*Homoj ĉiutage konfuzas ĉiujn streketojn, malfeliĉe...*\
+La `–` (verda klavo) estas «[streko](https://eo.wikipedia.org/wiki/Streko)» (ang. dash). Ni kutime uzas ĝin por signifi datojn «1986–1998» aŭ parencaj frazojn «Mi manĝos kukon–bona ideo.»\
+La `-` (flava klavo malsupre) estas «[streketo](https://eo.wikipedia.org/wiki/Streketo)» (ang. hyphen). Ni uzas ĝin por konekti vortojn ekz. «tricent-jar-aĝa arbo».\
+La `_` (flava klavo supre) ne estas multe uzata krom programistoj.\
+La `-` (blua klavo) estas «[minuso](https://eo.wikipedia.org/wiki/Minuso)» (ang. minus). Ni uzas ĝin en diversajn matematikaĵojn ekz. «2+4-1»
+
+#### Kial ĝi funkcias?
+Mi anstataŭigis na `legacy` parton en originala `epo` dosiero kun mia klavararanĝo. La operaciumo pensas ke vi uzas `legacy`.
+
+Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo.
