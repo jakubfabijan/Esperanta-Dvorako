@@ -37,6 +37,6 @@ La `_` (flava klavo supre) ne estas multe uzata krom programistoj.\
 La `-` (blua klavo) estas «[minuso](https://eo.wikipedia.org/wiki/Minuso)» (ang. minus). Ni uzas ĝin en diversajn matematikaĵojn ekz. «2+4-1»
 
 #### Kiel ĝi funkcias?
-Mi anstataŭigis na `legacy` parton en originala `epo` dosiero kun mia klavararanĝo. La operaciumo pensas ke vi uzas `legacy`.
+Mi anstataŭigis na `legacy` parton en originala `epo` dosiero per mia klavararanĝo. La operaciumo pensas ke vi uzas `legacy`.
 
 Mi bazis sur [ĉi tiu](https://lernu.net/en/forumo/temo/18360) ideo.
