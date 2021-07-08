@@ -28,7 +28,7 @@ Por lerni, je "Klavaro" vi devas elekti `Klavaro:`>`Esperantujo`>`dvorak`.
 `ĉ`sola klavo > `Ĉ`klavo kun Shift > `x`klavo kun AltGr > `X`klavo kun Shift kaj AltGr
 
 **Kio estas `ϗ` (![bildo](https://i.ibb.co/hF0D3BY/Hnet-com-image.png "Kaj signo")) ?**\
-`ϗ` estas mallongiga signo por «[kaj](https://eo.wikipedia.org/wiki/%CF%97)», anstataŭigas anglan `&`.
+`ϗ` estas mallongiga signo por «[kaj](https://eo.wikipedia.org/wiki/%CF%97)», anstataŭigas la anglan `&`.
 
 **La `–`, `‐`, `_` kaj `-`.**\
 La `–` (verda klavo) estas «[streko](https://eo.wikipedia.org/wiki/Streko)» (ang. dash). Ni kutime uzas ĝin por signifi datojn «1986–1998» aŭ parencaj frazojn «Mi manĝos kukon–bona ideo.»\
