@@ -1,6 +1,6 @@
 ## Esperanta-Dvorako
 Esperanta Dvoraka klavararanĝo por Linukso. Esperanto Dvorak key layout for linux.
-![bildo](https://user-images.githubusercontent.com/53099243/124826683-64308080-df75-11eb-98c0-c11ad75d06aa.png "Tiel ĝi aperas")
+![bildo](https://user-images.githubusercontent.com/53099243/125061090-482ffa80-e0ad-11eb-961f-24401d69e310.png "Tiel ĝi aperas")
 
 ## Agordado
 **Kiel instali ĝin?**
